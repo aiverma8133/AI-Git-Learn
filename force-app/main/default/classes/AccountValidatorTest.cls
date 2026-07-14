@@ -12,7 +12,7 @@ private class AccountValidatorTest {
         AccountValidator.validateBeforeInsert(accounts);
         Test.stopTest();
 
-        System.assert(true, 'Validation should pass without throwing for valid Accounts.');
+        //System.assert(true, 'Validation should pass without throwing for valid Accounts.');
     }
 
     @isTest
